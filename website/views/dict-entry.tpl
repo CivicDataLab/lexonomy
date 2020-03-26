@@ -53,6 +53,7 @@
 		</div>
 
 		<div class="midlope">
+
 			<div class="invelope">
 				<div id="viewer" class="viewer">{{!html}}</div>
 				<div id="nabes">
@@ -60,6 +61,7 @@
 						<a {{"class=current" if nabe["id"]==entryID else ""}} href="../../{{dictID}}/{{nabe["id"]}}">{{!nabe["title"]}}</a>
 					%end
 				</div>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSc6ihI7UFIegXOQKKeaUotNh1pS2AYBG_kHFm1Yy4fDSZHe7Q/viewform?entry.1935556122={{entryID}}&embedded=true"><i>Feedback</i></a>
 				<div class="clear"></div>
 			</div>
 		</div>
