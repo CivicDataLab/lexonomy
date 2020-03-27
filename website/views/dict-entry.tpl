@@ -57,7 +57,7 @@
 			<div class="invelope">
 				<div id="viewer" class="viewer">{{!html}}</div>
 				<div id="nabes">
-					%for nabe in nabes:
+					%for nabe in nabes[:5]:
 						<a {{"class=current" if nabe["id"]==entryID else ""}} href="../../{{dictID}}/{{nabe["id"]}}">{{!nabe["title"]}}</a>
 					%end
 				</div>
